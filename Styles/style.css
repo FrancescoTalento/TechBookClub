@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap');
+@import url(header.css);
+@import url(mains/main1.css);
+@import url(mains/main2.css);
+@import url(mains/main3.css);
+@import url(footer.css);
+
+:root{
+
+    /* gradient variabes */
+    --titulo-linear: 107deg, #FF9A60 -11.37%, #062630 61.84%;
+    --button-linear:90deg,#FFE2D1 0%,#FFF5EF 100%;
+
+/* color variables */
+    --neutral-900: #062630;
+    --neutral-700:#385159;
+    --neutral-200: #E6E1DF;
+    --neutral-100:#FAF5F3;
+
+    --lightSalmon-500:#FEA36F;
+    --lightSalmon-100:#FFE2D1;
+    --lightSalmon-50: #FFF5EF;
+
+ /* font variables */
+    --text-present-1: 700 62px/120% "Martian Mono",
+        monospace;
+    --text-present-1-mobile: 700 38px/120% "Martian Mono",
+        monospace;
+
+    --text-present-2: 600 50px/130% "Martian Mono", monospace;
+    --text-present-2-mobile: 600 34px/130% "Martian Mono",
+        monospace;
+
+    --text-present-3: 600 34px/130% "Martian Mono", monospace;
+    --text-present-3-mobile: 600 24px/110% "Martian Mono", monospace;
+
+    --text-present-4:600 24px/110% "Martian Mono", monospace;
+    --text-present-4-regular:400 24px/110% "Martian Mono", monospace;
+
+    --text-present-5:400 20px/140% "Inter",sans-serif;
+    --text-present-5-semiBold:600 20px/140% "Inter",
+    sans-serif;
+
+    --text-present-6:600 18px/130% "Martian Mono", monospace;
+    --text-present-6-mobile:600 16px/130% "Martian Mono", monospace;
+
+    --text-present-7:400 14px/120% "Martian Mono", monospace;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: auto;
+    height: 100vh;
+    background-color: white;
+}
+
+
+
+
+
+

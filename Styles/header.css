@@ -1,0 +1,217 @@
+header {
+    width: auto;
+    background-color: var(--neutral-100);
+    background-image:
+        repeating-linear-gradient(0deg, rgba(56, 81, 89, 0.1) 0px, rgba(56, 81, 89, 0.1) 1px, transparent 0.5px, transparent 40px),
+        repeating-linear-gradient(90deg, rgba(56, 81, 89, 0.1) 0px, rgba(56, 81, 89, 0.1) 1px, transparent 0.5px, transparent 40px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    padding: 24px 16px 80px 16px;
+
+
+}
+
+header section{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+}
+
+header > img{
+    margin-bottom: 48px;
+}
+
+header h1 {
+    background: linear-gradient(var(--titulo-linear));
+    -webkit-background-clip: text;
+    /* Para Chrome e Safari */
+    background-clip: text;
+    color: transparent;
+    /* Remove a cor do texto para exibir o gradiente */
+    font: var(--text-present-1-mobile);
+    letter-spacing: -2px;
+
+}
+
+header .ctMaior{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+header .ctMaior .ctTxt{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+header .ctTxt p{
+    font: var(--text-present-5);
+    color: var(--neutral-700);
+    text-align: left;
+    letter-spacing: -0.3px;
+}
+
+header .ctMaior .ctEspecial{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btnClick{
+    border: none;
+    background-color: var(--lightSalmon-50);
+    border: 2px solid var(--neutral-900);
+    border-radius: 8px;
+    font: var(--text-present-6-mobile);
+    position: relative;
+    letter-spacing: -1px;
+    color: var(--neutral-900);
+    transition: background 0.3s ease;
+}
+
+header .ctEspecial button.btnClick{
+    padding: 21.5px 61px 21.5px 23px;
+    
+
+}
+header .ctEspecial button.btnClick a{
+    text-decoration: none;
+    color: var(--neutral-900);
+}
+
+button.btnClick:hover{
+    background: linear-gradient(var(--button-linear));
+    cursor: pointer;
+}
+
+button.btnClick:focus::before{
+
+    content: "";
+    border: 2px solid var(--neutral-900);
+    position: absolute;
+    border-radius: 8px;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    
+}
+
+header .ctEspecial button a::after{
+    content: url(/assets/images/shared/icon-arrow-down.svg);
+    position: absolute;
+
+    width: 24px;
+    height: 24px;
+
+    top: 48%;
+    transform: translateY(-50%);
+    margin-left: 16px;
+}
+
+header .ctEspecial aside{
+    display: flex;
+    gap: 12px;
+    
+}
+
+
+header .ctEspecial aside img{
+    max-width: 110px;
+    max-height: 40px;
+   
+}
+header .ctEspecial .ctImg{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+header .ctEspecial .ctImg p{
+    font: var(--text-present-7);
+    letter-spacing: -1px;
+    color: var(--neutral-700);
+}
+
+
+
+header section img.pictureImg{
+    min-width:343px;
+    height: 385px;
+    border-radius: 12.25px;
+}
+
+
+@media screen and (min-width:767px) {
+    header{
+    width: auto;
+    background-image:
+        repeating-linear-gradient(0deg, rgba(56, 81, 89, 0.1) 0px, rgba(56, 81, 89, 0.1) 1px, transparent 0.5px, transparent 40px),
+        repeating-linear-gradient(90deg, rgba(56, 81, 89, 0.1) 0px, rgba(56, 81, 89, 0.1) 1px, transparent 0.5px, transparent 40px),
+        url(/assets/images/tablet/glowTabletsvg.svg);
+        background-position: center, center, bottom right;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        padding: 32px 32px 80px 32px;
+        /* background-image: url(/assets/images/tablet/glowTabletsvg.svg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: contain; */
+    }
+    /* header .btnClick{
+        max-width: 380px;
+    } */
+    header > img{
+        margin-bottom: 64px;
+    }
+    header h1{
+        font: var(--text-present-1);
+        letter-spacing: -1px;
+    }
+    header .ctTxt p {
+        font: var(--text-present-5);
+        text-align: left;
+        letter-spacing: 0.5px;
+    }
+    header .ctEspecial button {
+        font: var(--text-present-6);
+        max-width: 380px;
+    }
+    header .ctEspecial .ctImg p{
+        font: var(--text-present-7);
+    }
+    header section img.pictureImg{
+        min-width: 704px;
+        height: 790px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    header{
+        width:auto;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    header{
+        width: auto;
+        
+        background-image:
+                repeating-linear-gradient(0deg, rgba(56, 81, 89, 0.1) 0px, rgba(56, 81, 89, 0.1) 1px, transparent 0.5px, transparent 40px),
+                repeating-linear-gradient(90deg, rgba(56, 81, 89, 0.1) 0px, rgba(56, 81, 89, 0.1) 1px, transparent 0.5px, transparent 40px),
+                url(/assets/images/tablet/glowTabletsvg.svg);
+        padding: 32px 131px 66px 135px;
+    }
+    header section{
+        justify-content: center;
+        flex-direction: row;
+    }
+    header .ctMaior{
+        max-width: 580px;
+    }
+    header section img.pictureImg{
+        min-width: 540px;
+        height: 606px;
+    }
+}

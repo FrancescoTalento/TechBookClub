@@ -1,0 +1,197 @@
+footer{
+    width: auto;
+    border-radius: 25px 25px 0px 0px;
+    padding: 48px 16px 0px 16px;
+    background-color: var(--neutral-900);
+    color: var(--neutral-100);
+
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.ctArruma{
+    display: none;
+}
+footer div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+footer .ctAssets{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+footer .ctAssets aside{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+footer aside div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+footer .imgFoto{
+    width: 100px;
+    height: 40px;
+}
+footer .imgStars{
+    max-width: 148px;
+    height: 28px;
+}
+footer .imgIcon{
+    width: 22px;
+    height: 22px;
+}
+
+
+footer h2{
+    text-align: center;
+    font: var(--text-present-2-mobile);
+    letter-spacing: -2px;
+}
+
+footer .btnClick{
+    border: none;
+    background-color: var(--neutral-900);
+    border: 2px solid white;
+    position: relative;
+    font: var(--text-present-6-mobile);
+    /* border-radius: 8px;
+   
+    position: relative;
+    letter-spacing: -1px;
+    color: var(--neutral-900); */
+    width: 354px;
+    height: 64px;
+    padding: 21.5px 64px 21.5px 24px;
+}
+
+footer .btnClick:hover {
+    background: linear-gradient(90deg, var(--neutral-700), var(--neutral-900));
+    cursor: pointer;
+}
+
+footer .btnClick a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    
+    
+}
+
+footer .btnClick a::after{
+    content: url("/assets/images/shared/icon-arrow-up.svg");
+    position: absolute;
+    width: 24px;
+    height: 24px;
+
+    right: -45px;
+    top: 49%;
+    transform: translateY(-50%);
+}
+
+footer .ctAssets p{
+    font: var(--text-present-7);
+    letter-spacing: -1px;
+}
+
+footer span{
+    border: 1px solid var(--neutral-700);
+    width: 100%;
+}
+
+footer .ctDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.ctFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.ctFooter p{
+    font: var(--text-present-7);
+    letter-spacing: -1px;
+}
+.ctFooter div{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding-bottom: 24px;
+}
+
+@media screen and (min-width:766px){
+footer{
+    width: auto;
+    /* width: 96.4%;
+    border-radius: 25px 25px 0px 0px; */
+    padding: 64px 32px 0px 32px;
+    /* background-color: var(--neutral-900);
+    color: var(--neutral-100); */
+
+    /* display: flex;
+    flex-direction: column;
+    gap: 64px; */
+}
+footer h2{
+    text-align: center;
+    font: var(--text-present-2);
+    letter-spacing: -2px;
+}
+footer .btnClick {
+    width: 380px;
+    font: var(--text-present-6);
+    padding: 20.5px 62px 20.5px 24px;
+}
+
+
+footer .btnClick a::after {
+    right: -42px;
+    text-align: justify;
+}
+
+footer .ctFooter{
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+}
+
+@media screen and (min-width:1200px) {
+    footer{
+        width: auto;
+    }
+}
+@media screen and (min-width:1440px) {
+    footer{
+        width: auto;
+    }
+    footer div:first-child{
+    
+        align-items: center;
+    }
+    .ctArruma{
+        display: block;
+        max-width: 753px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    
+}

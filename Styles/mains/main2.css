@@ -1,0 +1,159 @@
+section.mSec3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--neutral-900);
+    gap: 32px;
+
+    padding: 64px 16px;
+    margin: 0px 17.5px;
+
+    background-color: var(--neutral-100);
+    background-image:
+        repeating-linear-gradient(0deg, rgba(56, 81, 89, 0.1) 0px, rgba(56, 81, 89, 0.1) 1px, transparent 0.5px, transparent 40px),
+        repeating-linear-gradient(90deg, rgba(56, 81, 89, 0.1) 0px, rgba(56, 81, 89, 0.1) 1px, transparent 0.5px, transparent 40px),
+        url(/assets/images/mobile/MainGlowMobile.svg);
+        background-position: center, center, bottom right;
+        background-repeat: no-repeat;
+        background-size: contain;
+    border-radius: 12px;
+}
+
+.mSec3 h2{
+    font: var(--text-present-2-mobile);
+    letter-spacing: -2px;
+    text-align: left;
+}
+
+.mSec3 ol{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.mSec3 ol li{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.mSec3 li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid  var(--neutral-900);
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+    color: var(--neutral-900);
+    font: var(--text-present-6-mobile);
+    letter-spacing: -1px;
+    text-align: left;
+    
+}
+.mSec3 li p:last-of-type{
+    color: var(--neutral-900);
+    font: var(--text-present-6-mobile);
+    letter-spacing: -1px;
+    text-align: left
+}
+
+@media screen and (min-width:767px){
+    section.mSec3{
+        gap: 48px;
+        align-items: left;
+        padding: 80px 32px;
+        margin: 0px 32px;
+    
+        
+        background-image:
+            repeating-linear-gradient(0deg, rgba(56, 81, 89, 0.1) 0px, rgba(56, 81, 89, 0.1) 1px, transparent 0.5px, transparent 40px),
+            repeating-linear-gradient(90deg, rgba(56, 81, 89, 0.1) 0px, rgba(56, 81, 89, 0.1) 1px, transparent 0.5px, transparent 40px),
+            url(/assets/images/tablet/MainGlowTablet.svg);
+    }
+    .mSec3 h2 {
+        font: var(--text-present-2);
+        letter-spacing: -2px;
+        text-align: left;
+    }
+    .mSec3 ol {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .mSec3 ol li {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    
+   }
+   .mSec3 li div{
+    font: var(--text-present-6);
+    width: 40px;
+    height: 40px;
+   }
+   .mSec3 li p:last-of-type{
+    font: var(--text-present-6);
+    
+   }
+
+}
+
+@media screen and (min-width:1280px){
+    .main2{
+        display: flex;
+        justify-content: center;
+    }
+    section.mSec3 {
+        align-items: center;
+        gap: 64px;
+        
+        padding: 80px 60px;
+        margin: 0px 0px;
+        max-width: 1170px;
+    
+    
+        background-image:
+            repeating-linear-gradient(0deg, rgba(56, 81, 89, 0.1) 0px, rgba(56, 81, 89, 0.1) 1px, transparent 0.5px, transparent 40px),
+            repeating-linear-gradient(90deg, rgba(56, 81, 89, 0.1) 0px, rgba(56, 81, 89, 0.1) 1px, transparent 0.5px, transparent 40px),
+            url(/assets/images/desktop/MainDeskGlow.svg);
+        }
+
+    .mSec3 h2{
+        max-width: 512px;
+        text-align: center;
+    }
+    .mSec3 ol {
+        display: flex;
+        flex-direction: row;
+        gap: 48px;
+    }
+    .mSec3 ol li {
+        position: relative;
+        max-width: 226.5px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .mSec3 ol li::after {
+        content: url(/assets/images/shared/pattern-arrow.svg);
+        width: 77px;
+        height: 20.5px;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+    .mSec3 ol li:last-of-type::after{
+        display: none;
+    }
+   /* }
+   .mSec3 li div{
+        font: var(--text-present-6);
+   } */
+    /* .mSec3 li p:last-of-type{
+    font: var(--text-present-6);
+   } */
+}

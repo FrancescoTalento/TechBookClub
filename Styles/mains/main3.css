@@ -1,0 +1,269 @@
+#main3{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+    color: var(--neutral-900);
+}
+
+#mSec4{
+    margin: 64px 16px 0px 16px;
+    margin-bottom: 0;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 24px;
+}
+#mSec5{
+    margin: 0px 16px 64px 16px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    
+}
+
+
+#mSec4 h2{
+    font: var(--text-present-2-mobile);
+    letter-spacing: -2px;
+    color: var(--neutral-900);
+}
+#mSec4 .ctOpt{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 24px;
+}
+
+#mSec4 .ctSubscription{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 292px;
+    border-radius: 8px;
+
+    border: 1px solid var(--neutral-200);
+    padding: 24px;
+}
+
+.ctSubscription span{
+    width: 100%;
+    border: 1px solid var(--neutral-200);
+}
+.ctSubscription ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ctSubscription h3{
+    font: var(--text-present-4);
+    letter-spacing: -1px;
+    color: var(--neutral-900);
+}
+
+.ctSubscription p strong{
+    font: var(--text-present-3);
+    letter-spacing: -1px;
+    color: var(--neutral-900);
+}
+.ctSubscription p{
+    font: var(--text-present-5);
+    letter-spacing: -0.5px;
+    color: var(--neutral-700);
+}
+.ctSubscription ul li{
+    font: var(--text-present-5);
+    letter-spacing: -0.5px;
+    color: var(--neutral-700);
+    position: relative;
+    padding-left: 36px;
+    list-style: none;
+}
+.ctSubscription ul li::before {
+    content: url(/assets/images/shared/icon-check.svg);
+    width: 24px;
+    height: 24px;
+
+    position: absolute;
+    left: 0;
+
+    top: 49%;
+    transform: translateY(-50%);
+
+}
+.ctSubscription .btnClick{
+    margin-top: 8px;
+    padding: 20px 0px;
+    width: 292px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    font: var(--text-present-6-mobile);
+    color: var(--neutral-900);
+}
+
+.ctSubscription.subsDestaque{
+    background-color: var(--neutral-100);
+    background-image: url(/assets/images/mobile/EllipseMobile.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+
+#mSec5 img{
+    width: 164px;
+    height: 28px;
+    align-items: flex-start;
+}
+
+#mSec5 p:first-of-type{
+    font: var(--text-present-3-mobile);
+    letter-spacing: -1px;
+    color: var(--neutral-900);
+    text-align: left;
+}
+
+#mSec5 p:last-of-type{
+    font: var(--text-present-5);
+    letter-spacing: -0.5px;
+    color: var(--neutral-700);
+    text-align: left;
+}
+
+@media screen and (min-width: 780px) {
+    #main3 {
+        /* display: flex;
+        flex-direction: column; */
+        gap: 80px;
+
+        /* color: var(--neutral-900); */
+    }
+    #mSec4{
+        margin: 80px 32px 0px 32px;
+        /* margin-bottom: 0; */
+
+        /* display: flex;
+        flex-flow: row wrap; */
+        gap: 40px;
+    }
+
+    #mSec4 h2{
+        font: var(--text-present-2);
+        letter-spacing: -4%;
+        /* color: var(--neutral-900); */
+    }
+    .ctSubscription .btnClick{
+        /* padding: 20px 0px;
+        width: 292px;
+        text-align: center; */
+        letter-spacing: -2%;
+        font: var(--text-present-6);
+        /* color: var(--neutral-900); */
+    }
+
+    #mSec5{
+        margin: 0px 32px 80px 32px;
+        /* display: flex;
+        flex-direction: column; */
+        /* gap: 32px; */   
+}
+    #mSec5 p:first-of-type {
+        font: var(--text-present-3);
+        /* letter-spacing: -1px;
+        color: var(--neutral-900);
+        text-align: left; */
+    }
+/* 
+    #mSec5 p:last-of-type {
+        font: var(--text-present-5);
+        letter-spacing: -0.5px;
+        color: var(--neutral-700);
+        text-align: left;
+    } */
+}
+
+@media screen and (min-width:1440px){
+
+    #main3 {
+        /* display: flex;
+        flex-direction: column; */
+        gap: 120px;
+
+        /* color: var(--neutral-900); */
+        align-items: center;
+    }
+    #mSec4{
+        margin: 120px 100px 0px 100px;
+        /* margin-bottom: 0; */
+        max-width: 970px;
+        /* display: flex;
+        flex-flow: row wrap; */
+        gap: 64px;
+        
+    }
+
+    #mSec4 h2{
+        font: var(--text-present-2);
+        letter-spacing: -4%;
+        /* color: var(--neutral-900); */
+        text-align: center;
+    }
+    .ctOpt{
+        height: 400px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      
+    }
+    .ctSubscription{
+        width: 238px;
+        padding: 24px;
+        margin: 16px 0px;
+        max-height: 310px;
+    }
+    .ctSubscription.subsDestaque{
+        width: 350px;
+        max-height: 390px;
+        padding: 40px 24px;
+        margin: 0px;
+       
+    }
+    .subsDestaque h3{
+        padding-top: 10px;
+    }
+
+    .ctSubscription .btnClick{
+        /* padding: 20px 0px;*/
+        width: 238px;
+        max-height: 63px;
+        /*text-align: center; */
+        letter-spacing: -2%;
+        font: var(--text-present-6);
+        /* color: var(--neutral-900); */
+    }
+    .ctSubscription.subsDestaque .btnClick{
+        width: 302px;
+    }
+
+    #mSec5{
+        margin: 0px;
+        margin-bottom: 120px;
+        max-width: 970px;
+        /* display: flex;
+        flex-direction: column; */
+        /* gap: 32px; */   
+        align-items: center;
+        text-align: center;
+}
+    #mSec5 p:first-of-type {
+        font: var(--text-present-3);
+        text-align: center;
+    }
+/* 
+    #mSec5 p:last-of-type {
+        font: var(--text-present-5);
+        letter-spacing: -0.5px;
+        color: var(--neutral-700);
+        text-align: left;
+    } */
+}
