@@ -20,7 +20,7 @@
 ![Project Screenshot](./preview.jpg)
 
 ### Links
-- Live Site URL: [www.TechBookClub.com](https://your-live-site-url.com)
+- Live Site URL: [www.TechBookClub.com](https://francescotalento.github.io/TechBookClub/)
 
 ## My Process
 
