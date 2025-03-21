@@ -101,7 +101,7 @@ Moving forward, I aim to:
 
 ## Author
 
-- Website - [Tech Book Club](https://www.website.com)
+- Website - [Tech Book Club](https://francescotalento.github.io/TechBookClub/)
 - Linkedin - [Francesco Talento](https://www.linkedin.com/in/francesco-talento-a56b5b28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 
 ---
