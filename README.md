@@ -17,10 +17,10 @@
 
 ### Screenshot
 
-![Project Screenshot](./screenshot.png)
+![Project Screenshot](./preview.jpg)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [www.TechBookClub.com](https://your-live-site-url.com)
 
 ## My Process
 
